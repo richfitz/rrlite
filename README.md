@@ -1,7 +1,10 @@
 # rrlite
 
-[![Build Status](https://travis-ci.org/ropensci/rrlite.png?branch=master)](https://travis-ci.org/ropensci/rrlite)
-[![Coverage Status](https://coveralls.io/repos/ropensci/rrlite/badge.svg?branch=master)](https://coveralls.io/r/ropensci/rrlite?branch=master)
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/ropensci/rrlite/workflows/R-CMD-check/badge.svg)](https://github.com/ropensci/rrlite/actions)
+[![codecov.io](https://codecov.io/github/ropensci/rrlite/coverage.svg?branch=master)](https://codecov.io/github/ropensci/rrlite?branch=master)
+[![](https://badges.ropensci.org/6_status.svg)](https://github.com/ropensci/onboarding/issues/6)
+<!-- badges: end -->
 
 
 
@@ -44,6 +47,7 @@ con
 ##     reconnect: function
 ##     subscribe: function
 ##     type: function
+##     version: function
 ```
 
 This object has all the same methods as the corresponding object created by `redux::hiredis()` but operating on a rlite database.  The default database uses the magic path `:memory:` but persistent on-disk storage is possible (see `?rlite_config`).

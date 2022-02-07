@@ -19,3 +19,4 @@ tests/testthat/test.rld
 ^src/rlite/src/.*\.[ao]$
 ^generate.R$
 ^update_rlite$
+^\.github$
